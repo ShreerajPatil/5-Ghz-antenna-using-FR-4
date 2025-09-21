@@ -17,7 +17,7 @@ The antenna achieves a return loss of -25.45 dB at its resonant frequency of 5.0
 
 ### Radiation Pattern
 The E-plane and H-plane radiation patterns at 5.0 GHz demonstrate a directional main lobe.
-![Radiation Pattern](e-and-h.png)
+![Radiation Pattern](e and h .png)
 
 ## Antenna Dimensions
 The antenna geometry is parameterized as follows, with all dimensions in millimeters (mm).
