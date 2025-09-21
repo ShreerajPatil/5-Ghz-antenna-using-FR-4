@@ -1,0 +1,65 @@
+# 5 GHz U-Slot Microstrip Patch Antenna on FR-4
+
+This repository contains the ANSYS HFSS simulation project for a compact U-slot microstrip patch antenna designed to operate at 5.0 GHz. The design is implemented on a standard FR-4 substrate and is optimized for C-band applications, including Wi-Fi (IEEE 802.11a/n/ac). The U-slot is incorporated to enhance the antenna's bandwidth.
+
+## Performance Summary
+
+| Metric                  | Value                  |
+| ----------------------- | ---------------------- |
+| **Resonant Frequency**      | 5.0 GHz                |
+| **Return Loss (S11)**       | -25.45 dB              |
+| **-10 dB Bandwidth**        | 210 MHz (4.89–5.10 GHz)|
+| **Radiation Pattern**     | Directional            |
+
+### S11 (Return Loss)
+The antenna achieves a return loss of -25.45 dB at its resonant frequency of 5.0 GHz.
+![S11 Plot](s11.jpg)
+
+### Radiation Pattern
+The E-plane and H-plane radiation patterns at 5.0 GHz demonstrate a directional main lobe.
+![Radiation Pattern](e-and-h.jpg)
+
+## Antenna Dimensions
+The antenna geometry is parameterized as follows, with all dimensions in millimeters (mm).
+
+| Parameter                 | Dimension (mm) |
+| ------------------------- | -------------- |
+| Substrate Width (SW)      | 24.5           |
+| Substrate Length (SL)     | 27.0           |
+| Patch Width (PW)          | 17.0           |
+| Patch Length (PL)         | 13.75          |
+| Feedline Width (FW)       | 3.11           |
+| Feedline Length (FL)      | 8.05           |
+| U-Slot Cut Width (CW)     | 1.0            |
+| U-Slot Cut Length (CL)    | 4.5            |
+
+![Antenna Geometry](SW-6.jpg)
+
+## Project Files
+
+ Compressed ANSYS Electronics Desktop project file.
+*   **/images/**:
+    *   `s11.jpg`: S11 return loss plot.
+    *   `e-and-h.jpg`: E-plane and H-plane radiation patterns.
+    *   `SW-6.jpg`: Antenna geometry and dimensions.
+*   **/LICENSE**: The license for this project.
+*   **/README.md**: This documentation file.
+
+## Simulation Setup
+
+*   **Software**: ANSYS HFSS `[Specify Version, e.g., 2023 R2]`
+*   **Substrate**: FR-4 (εr = 4.4, tanδ = 0.02, h = 1.6 mm)
+*   **Analysis**: Frequency sweep from 1.0 GHz to 6.0 GHz.
+
+## How to Use
+
+1.  Clone this repository.
+2.  Download and extract the `[your_project_name].aedtz` project archive.
+3.  Open the project file in ANSYS Electronics Desktop to view the model and results.
+
+## License
+
+This project is licensed under the `[Specify License, e.g., MIT License]`. See the `LICENSE` file for details.
+
+---
+Copyright (c) 2025 [Your Name]
