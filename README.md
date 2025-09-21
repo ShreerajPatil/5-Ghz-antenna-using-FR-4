@@ -23,7 +23,7 @@ The antenna achieves a return loss of -25.45 dB at its resonant frequency of 5.0
 The E-plane and H-plane radiation patterns at 5.0 GHz demonstrate a directional main lobe.
 
 
-![Radiation Pattern](e and h.png)
+![Radiation Pattern](e&h.png)
 
 ## Antenna Dimensions
 
@@ -40,12 +40,12 @@ The antenna geometry is parameterized as follows, with all dimensions in millime
 | U-Slot Cut Width (CW)     | 1.0            |
 | U-Slot Cut Length (CL)    | 4.5            |
 
-![Antenna Geometry](sw (6).png)
+![Antenna Geometry](dimension.png)
 ## Project Files
 
-*   **Project1.aedt**: The ANSYS Electronics Desktop project file.
-*   **LICENSE**: The repository license.
-*   **README.md**: This documentation file.
+*   ![The ANSYS Electronics Desktop project file](Project1.aedt)
+*   ![The repository license](LICENSE)
+*   ![This documentation file](README.md)
 
 ## License
 
