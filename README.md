@@ -13,19 +13,17 @@ This repository contains the ANSYS HFSS simulation project for a compact U-slot 
 
 ### S11 (Return Loss)
 
-The antenna achieves a return loss of -25.45 dB at its resonant frequency of 5.0 GHz.
-<img width="854" height="697" alt="s11" src="https://github.com/user-attachments/assets/7138c85b-21ca-49f7-<img width="940" height="788" alt="SW (6)" src="https://github.com/user-attachments/assets/896cfea3-dcb9-440a-bbf9-a9340f15b0b5" />
-9f48-964c1c345de4" />
+The antenna achieves a return loss of -25.45 dB at its resonant frequency of 5.0 GHz
 
 
-![Return Loss Plot](return_loss.png)
+![Return Loss Plot](s11.png)
 
 ### Radiation Pattern
 
 The E-plane and H-plane radiation patterns at 5.0 GHz demonstrate a directional main lobe.
 
 
-![Radiation Pattern](radiation_pattern.png)
+![Radiation Pattern](e and h.png)
 
 ## Antenna Dimensions
 
@@ -42,9 +40,7 @@ The antenna geometry is parameterized as follows, with all dimensions in millime
 | U-Slot Cut Width (CW)     | 1.0            |
 | U-Slot Cut Length (CL)    | 4.5            |
 
-![Antenna Geometry](geometry.png)<img width="940" height="788" alt="SW (6)" src="https://github.com/user-attachments/assets/d1e64431-6c8c-4dd4-92ac-4988394d1c46" />
-
-
+![Antenna Geometry](sw (6).png)
 ## Project Files
 
 *   **Project1.aedt**: The ANSYS Electronics Desktop project file.
